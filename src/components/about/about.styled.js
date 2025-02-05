@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AboutStyled = styled.div`
     background: linear-gradient(90deg, #091C15, #000000);
     width: 100vw;
-    height: 92vh;
+    height: 720px;
     display: flex;
     flex-direction: line;
     justify-content: center;
@@ -11,7 +11,7 @@ export const AboutStyled = styled.div`
     gap: 64px;
 
     main {
-        margin-top: 50vh;
+        margin-top: 280px;
     }
     
     section {

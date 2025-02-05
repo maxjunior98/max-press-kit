@@ -11,7 +11,7 @@ export const HomeStyled = styled.div`
 
     background: linear-gradient(90deg, #091C15, #000000);
     width: 100vw;
-    height: 92vh;
+    height: 720px;
     font-family: 'UnifrakturCook';
     display: flex;
 
@@ -23,14 +23,26 @@ export const HomeStyled = styled.div`
         justify-content: center;
     }
 
+    div {
+        margin-top: 64px;
+        color: #24fc03;
+        font-size: 40px;
+        display: flex;
+        gap: 64px;
+
+        * {
+            cursor: pointer;
+        }
+    }
+
     span {
-        height: 140px;
+        height: 120px;
         color: white;
         font-size: 120px;
         font-weight: bold;
     }
 
-    div {
+    h2 {
         color: white;
         font-size: 32px;
     }

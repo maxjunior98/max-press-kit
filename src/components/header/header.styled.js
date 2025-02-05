@@ -9,6 +9,7 @@ export const StyledHeader = styled.header`
     border-bottom: 0.2vh solid black;
 
     div {
+        cursor: pointer;
         width: 10%;
         text-align: center;
         font-weight: bold;

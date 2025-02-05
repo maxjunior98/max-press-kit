@@ -4,7 +4,7 @@ import { aboutFirstPart, aboutSecondPart } from "../../assets/texts";
 function About() {
     return (
         <AboutStyled>
-            <section>
+            <section id="about">
                 <span>Sobre Max</span>
                 <div>{aboutFirstPart}</div>
                 <div>{aboutSecondPart}</div>

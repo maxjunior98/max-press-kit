@@ -1,11 +1,19 @@
 import { HomeStyled } from "./home.styled";
+import { FaWhatsapp, FaInstagram, FaSoundcloud, FaYoutube } from "react-icons/fa";
 
-function Home() {
+function Home({openInstagram, openSoundCloud}) {
+
     return (
         <HomeStyled>
-            <main>
+            <main id="home">
                 <span>MAX</span>
-                <div>Recuero</div>
+                <h2>Recuero</h2>
+                <div>
+                    <FaWhatsapp />
+                    <FaInstagram onClick={openInstagram}/>
+                    <FaSoundcloud onClick={openSoundCloud}/>
+                    {/* <FaYoutube /> */}
+                </div>
             </main>
             <section>
                 <img src="/cover.jpg"/>
