@@ -1,7 +1,7 @@
 {
   "name": "max-press-kit",
   "version": "0.1.0",
-  "homepage": "https://maxjunior98.github.io/max-recuero",
+  "homepage": "https://maxjunior98.github.io/max-press-kit",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
