@@ -1,9 +1,11 @@
 {
   "name": "max-press-kit",
   "version": "0.1.0",
+  "homepage": "https://maxjunior98.github.io/max-recuero",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
@@ -11,6 +13,8 @@
     "styled-components": "^6.1.14"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

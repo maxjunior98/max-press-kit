@@ -13,12 +13,17 @@ function App() {
     window.open("https://soundcloud.com/max-recuero")
   }
 
+  function handleWhatsApp(){
+    const URL = "https://wa.me/+5546999408953"
+    window.open(URL)
+  }
+
   return (
-    <div className="App">
+    <div className="App_Max_Recuero">
       <Header/>
-      <Home id="home" openInstagram={handleInstagram} openSoundCloud={handleSoundCloud} />
+      <Home id="home" openInstagram={handleInstagram} openSoundCloud={handleSoundCloud} openWhatsApp={handleWhatsApp} />
       <About id="about"/>
-      <Contact id="contact" openInstagram={handleInstagram} />
+      <Contact id="contact" openInstagram={handleInstagram} openWhatsApp={handleWhatsApp} />
     </div>
   );
 }
