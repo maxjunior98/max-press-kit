@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/max-recuero/static/css/main.e6c13ad2.css",
-    "main.js": "/max-recuero/static/js/main.725c0b60.js",
-    "index.html": "/max-recuero/index.html",
-    "main.e6c13ad2.css.map": "/max-recuero/static/css/main.e6c13ad2.css.map",
-    "main.725c0b60.js.map": "/max-recuero/static/js/main.725c0b60.js.map"
+    "main.css": "/max-press-kit/static/css/main.e6c13ad2.css",
+    "main.js": "/max-press-kit/static/js/main.702cc239.js",
+    "index.html": "/max-press-kit/index.html",
+    "main.e6c13ad2.css.map": "/max-press-kit/static/css/main.e6c13ad2.css.map",
+    "main.702cc239.js.map": "/max-press-kit/static/js/main.702cc239.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.725c0b60.js"
+    "static/js/main.702cc239.js"
   ]
 }
