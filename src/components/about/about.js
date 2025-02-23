@@ -10,10 +10,10 @@ function About() {
                 <div>{aboutSecondPart}</div>
             </section>
             <main>
-                <img src="profile2.jpg" alt="profile2" />
+                <img src={require("./profile2.jpg")} alt="profile2" />
             </main>
             <section>
-                <img src="profile1.jpg" alt="profile1" />
+                <img src={require("./profile1.jpg")} alt="profile1" />
             </section>
         </AboutStyled>
     )

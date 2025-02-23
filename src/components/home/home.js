@@ -1,5 +1,5 @@
 import { HomeStyled } from "./home.styled";
-import { FaWhatsapp, FaInstagram, FaSoundcloud, FaYoutube } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaSoundcloud } from "react-icons/fa";
 
 function Home({openInstagram, openSoundCloud, openWhatsApp}) {
 
@@ -15,8 +15,8 @@ function Home({openInstagram, openSoundCloud, openWhatsApp}) {
                     {/* <FaYoutube /> */}
                 </div>
             </main>
-            <section id="max_recuero">
-                <img src="/cover.jpg"/>
+            <section>
+                <img src={require("./cover.jpg")} alt="cover"/>
             </section>
         </HomeStyled>
     )

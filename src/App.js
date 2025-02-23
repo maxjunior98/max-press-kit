@@ -21,9 +21,9 @@ function App() {
   return (
     <div className="App_Max_Recuero">
       <Header/>
-      <Home id="home" openInstagram={handleInstagram} openSoundCloud={handleSoundCloud} openWhatsApp={handleWhatsApp} />
-      <About id="about"/>
-      <Contact id="contact" openInstagram={handleInstagram} openWhatsApp={handleWhatsApp} />
+      <Home openInstagram={handleInstagram} openSoundCloud={handleSoundCloud} openWhatsApp={handleWhatsApp} />
+      <About />
+      <Contact openInstagram={handleInstagram} openWhatsApp={handleWhatsApp} />
     </div>
   );
 }
