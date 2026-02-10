@@ -2,6 +2,7 @@ import Header from "./components/header/header";
 import Home from "./components/home/home";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
+import Events from "./components/events/events";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Header/>
       <Home openInstagram={handleInstagram} openSoundCloud={handleSoundCloud} openWhatsApp={handleWhatsApp} />
       <About />
+      <Events />
       <Contact openInstagram={handleInstagram} openWhatsApp={handleWhatsApp} />
     </div>
   );

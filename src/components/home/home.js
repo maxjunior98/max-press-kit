@@ -16,7 +16,7 @@ function Home({openInstagram, openSoundCloud, openWhatsApp}) {
                 </div>
             </main>
             <section>
-                <img src={require("./cover.jpg")} alt="cover"/>
+                <img src={require("./cover01.jpeg")} alt="cover"/>
             </section>
         </HomeStyled>
     )

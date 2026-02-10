@@ -11,6 +11,7 @@ function Header() {
         <StyledHeader>
             <div onClick={() => scrollToElement("home")}>Max Recuero</div>
             <div onClick={() => scrollToElement("about")}>Sobre</div>
+            <div onClick={() => scrollToElement("event_title")}>Eventos</div>
             <div onClick={() => scrollToElement("contact_title")}>Contato</div>
         </StyledHeader>
     )
